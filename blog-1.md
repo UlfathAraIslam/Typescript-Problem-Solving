@@ -74,20 +74,14 @@ This process is called **type narrowing**.
 
 ---
 
-# Real-Life Example
-
-Data from APIs is often unpredictable.
-
----
-
 # `any` vs `unknown`
 
 | Feature | any | unknown |
 |---|---|---|
-| Type checking | ❌ No | ✅ Yes |
-| Safe to use | ❌ Risky | ✅ Safer |
-| Requires validation | ❌ No | ✅ Yes |
-| Prevents runtime bugs | ❌ No | ✅ Better |
+| Type checking |  No |  Yes |
+| Safe to use | Risky |  Safer |
+| Requires validation |  No |  Yes |
+| Prevents runtime bugs |  No |  Better |
 
 ---
 
